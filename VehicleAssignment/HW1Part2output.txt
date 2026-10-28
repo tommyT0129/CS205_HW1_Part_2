@@ -1,0 +1,65 @@
+First: null
+Removed first: null
+Last: null
+Number of Vehicles in list: 0
+Is list empty: true
+Entire list: 
+VehicleList is empty
+Boat length must be between 1 and 1300: -8
+edu.monmouth.vehicle.BoatException: Boat length must be between 1 and 1300: -8
+	at VehicleAssignment/edu.monmouth.vehicle.Boat.setBoatLength(Boat.java:22)
+	at VehicleAssignment/edu.monmouth.vehicle.Boat.<init>(Boat.java:13)
+	at VehicleAssignment/edu.monmouth.hw1.HW1.main(HW1.java:63)
+Engine size must be between 1 and 199: -4
+edu.monmouth.vehicle.CarException: Engine size must be between 1 and 199: -4
+	at VehicleAssignment/edu.monmouth.vehicle.Car.setEngineSize(Car.java:18)
+	at VehicleAssignment/edu.monmouth.vehicle.Car.<init>(Car.java:9)
+	at VehicleAssignment/edu.monmouth.hw1.HW1.main(HW1.java:69)
+Number of seat must be between 1 and 1000: -2
+edu.monmouth.vehicle.PlaneException: Number of seat must be between 1 and 1000: -2
+	at VehicleAssignment/edu.monmouth.vehicle.Plane.setNumSeat(Plane.java:18)
+	at VehicleAssignment/edu.monmouth.vehicle.Plane.<init>(Plane.java:9)
+	at VehicleAssignment/edu.monmouth.hw1.HW1.main(HW1.java:76)
+After inserting Vehicles: 
+VehicleList (6 vehicles):
+  1. Plane [numSeat=500, powerSource=GASOLINE]
+  2. Plane [numSeat=2, powerSource=FUELOIL]
+  3. Car [engineSize=4, powerSource=DEISEL]
+  4. Car [engineSize=12, powerSource=ELECTRICITY]
+  5. Boat [boatLength=500, powerSource=DEISEL]
+  6. Boat [boatLength=12, powerSource=GASOLINE]
+
+After adding another Vehicle to end: 
+VehicleList (7 vehicles):
+  1. Plane [numSeat=500, powerSource=GASOLINE]
+  2. Plane [numSeat=2, powerSource=FUELOIL]
+  3. Car [engineSize=4, powerSource=DEISEL]
+  4. Car [engineSize=12, powerSource=ELECTRICITY]
+  5. Boat [boatLength=500, powerSource=DEISEL]
+  6. Boat [boatLength=12, powerSource=GASOLINE]
+  7. Car [engineSize=10, powerSource=GASOLINE]
+
+First: Plane [numSeat=500, powerSource=GASOLINE]
+Last: Car [engineSize=10, powerSource=GASOLINE]
+Removed first: Plane [numSeat=500, powerSource=GASOLINE]
+list after removing first: 
+VehicleList (6 vehicles):
+  1. Plane [numSeat=2, powerSource=FUELOIL]
+  2. Car [engineSize=4, powerSource=DEISEL]
+  3. Car [engineSize=12, powerSource=ELECTRICITY]
+  4. Boat [boatLength=500, powerSource=DEISEL]
+  5. Boat [boatLength=12, powerSource=GASOLINE]
+  6. Car [engineSize=10, powerSource=GASOLINE]
+
+list after adding another Vehicle: 
+VehicleList (7 vehicles):
+  1. Boat [boatLength=900, powerSource=FUELOIL]
+  2. Plane [numSeat=2, powerSource=FUELOIL]
+  3. Car [engineSize=4, powerSource=DEISEL]
+  4. Car [engineSize=12, powerSource=ELECTRICITY]
+  5. Boat [boatLength=500, powerSource=DEISEL]
+  6. Boat [boatLength=12, powerSource=GASOLINE]
+  7. Car [engineSize=10, powerSource=GASOLINE]
+
+Number of Vehicles in list: 7
+Is list empty: false
